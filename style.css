@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poor+Story&display=swap');
+
+body {
+    background-color: rgb(7, 7, 46);
+    font-family: 'Poor Story', cursive;
+}
+
+:root {
+    --blue: rgb(6, 6, 36);
+    --green: rgb(50, 150, 50);
+}
+
+.card {
+    width: 350px;
+    height: 400px;
+    position: relative;
+    background-color: var(--blue);
+    left: 500px;
+    top: 100px;
+    border-radius: 10px;
+    border: 1px solid var(--green);
+    padding: 10px;
+}
+
+.card .card-header {
+    color: whitesmoke;
+    padding-top: 40px;
+    text-align: center;
+    padding-bottom: 15px;
+    color: var(--green);
+}
+
+.card .registrasi {
+    padding-top: 20px;
+}
+
+.card .card-body input {
+    text-align: center;
+    display: block;
+    padding: 10px;
+    border-radius: 8px;
+    border: 2px solid var(--green);
+    width: 100%;
+    background-color: var(--blue);
+    caret-color: var(--green);
+    color: white;
+}
+
+
+.card .card-body input[type=text] {
+    margin-bottom: 20px;
+}
+
+.card .card-footer {
+    padding-top: 20px;
+    color: var(--green);
+    text-align: center;
+}
+
+.card .card-footer a {
+    color: brown;
+}
+
+.card .card-body button {
+    border: none;
+    padding: 8px;
+    margin-top: 10px;
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid var(--green);
+    text-transform: uppercase;
+    background-color: var(--green);
+    color: var(--blue);
+    font-weight: bold;
+}
+
+.card .card-body button:hover {
+    cursor: pointer;
+    background-color: green;
+}
